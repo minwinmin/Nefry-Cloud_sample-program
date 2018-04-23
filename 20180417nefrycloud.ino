@@ -6,7 +6,7 @@ NefryCloud nefryCloud;
 void onpush(String message);
 
 void setup() {
-  nefryCloud.begin("takudooon","77c58ea49b3d798f727e5af156fdc9fcb36f4f63cc0e801c2310e07d4fe59344");//サイトで登録したuser,メールで受け取ったapikeyを入力してください
+  nefryCloud.begin("user","apikey");//サイトで登録したuser,メールで受け取ったapikeyを入力してください
   nefryCloud.on(onpush);
 }
 
